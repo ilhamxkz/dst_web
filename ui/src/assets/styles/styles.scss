@@ -1,0 +1,14 @@
+// Write your overrides
+/* src/assets/main.css */
+a {
+  text-decoration: none;
+}
+a:focus,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+:deep(.external-class a) {
+  text-decoration: none;
+}
